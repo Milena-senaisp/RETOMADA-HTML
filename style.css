@@ -1,0 +1,51 @@
+.container {
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+}
+
+.azul {
+    width: 100px;
+    height: 100px;
+    background-color: blue; /*cor de dentro*/
+}
+
+.verde {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+.roxo {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+}
+
+.verde {
+    margin: 0px;
+    /* Margin representa o espaço fora */
+    /* ordem das margens: cima, direita, baixo, esquerda */
+    border: 0px;
+    /*  para o border funcionar, ele precisa de tres coisas: largura, tipo e cor da borda */
+    /* solid, dashed, double, dotted, grovve, ridge*/
+    padding: 0px 0px 0px 0px;
+    /* cima, direita, baixo, esquerda */
+
+}
+
+.container {
+    display:flex;
+    /* ordena visualmente os textos e as imagens  */
+    /* flex deixa as imagens e textos na ordem que nós queremos */
+    flex-direction: row;
+    /* row, row-reverse, column, column-reverse */
+    justify-content: space-evenly;
+    /* left, right, center, space-between (pontas nos cantos e espaço no meio), sopace-around (pouco espço nos pontas e no meio), space-evenly (espaço iguais)*/
+    align-items: center;
+    /* flex-start, flex-end, center, baseline, streth (altura total */
+    flex-wrap:wrap-reverse;
+    /* serve para pular linha */
+    /* nowrap, wrap, wrap-reverse  */
+
+}
